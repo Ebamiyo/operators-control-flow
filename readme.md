@@ -1,40 +1,101 @@
 1. List the symbols for each of the below Javascript operators
+
+
 Arithmetic Operators: +, -, /, *, **, %, ++, --
+
+
 Assignment Operators: =, +=, -=, /=, %=, **=, *=
+
+
 Comparison Operators: >, <, ==, ===, !=, !==, >=, <=
+
+
 Logical Operators: &&, ||, !
+
+
 Bitwise Operators: &, |, ~, <<, >>, >>>
 
 
 2. For each JavaScript Operator, write 2 examples.
-Arithmetic Operators: (a) let x = 2
-                          let y = 3
-                          let z = x + y
-                          //5
+
+
+Arithmetic Operators: 
+
+(a) let x = 2
+
+
+    let y = 3
+
+
+    let z = x + y
+
+
+    //5
+
                       
-                      (b) let num1 = 2
-                          let num2 = 3
-                          let result = num1 * num2 / num2
-                          //2
+    b) let num1 = 2
 
-Assignment Operators: (a) let x = 6
-                          let z = 5
-                          z *= x //same as (z = z*x)
-                          //30
 
-                      (b) let num1 = 2
-                          let num2 = 4
-                          num2 += num1 //same as(num2 = num2 + num1)
-                          //6
+       let num2 = 3
+        
+
+       let result = num1 * num2 / num2
+
+
+        
+        //2
+
+
+Assignment Operators: 
+
+
+(a) let x = 6
                           
-Comparison Operators: (a) num1 = 5
-                          num2 = 10
-                          if (num1 > num2){
-                            console.log(num1);
-                            else {
-                                console.log(num2);
-                            }
-                          }//num2(10)
+                          
+    let z = 5
+
+
+    z *= x //same as (z = z*x)
+
+
+    //30
+
+
+    (b) let num1 = 2
+
+
+      let num2 = 4
+
+
+      num2 += num1 //same as(num2 = num2 + num1)
+
+
+      //6
+
+
+Comparison Operators: 
+
+
+(a) num1 = 5
+  
+  
+    num2 = 10
+
+
+    if (num1 > num2){
+
+
+       console.log(num1);
+
+
+       }else {
+
+      
+      console.log(num2);
+
+
+      }
+      //num2(10)
 
                       (b) let num1 = "2"
                           let num2 = 2
